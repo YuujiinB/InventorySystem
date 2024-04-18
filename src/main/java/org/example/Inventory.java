@@ -24,6 +24,16 @@ public class Inventory {
                         "Item Price: " + itemPrice;
     }
 
+    @Override
+    public String toString(){
+        return
+                "Item ID: " + id + "\n" +
+                        "Item Name: " + itemName + "\n" +
+                        "Item Description: " + itemDescription + "\n" +
+                        "Item Quantity: " + itemQuantity + "\n" +
+                        "Item Price: " + itemPrice;
+    }
+
     public String getId() {
         return id;
     }
